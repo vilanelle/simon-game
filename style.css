@@ -1,32 +1,35 @@
-body{
+body {
   background-color: #F2EDD8;
   font-family: 'Lato', sans-serif;
 }
 
-h1{
+h1 {
   max-width: 500px;
   margin: 2rem auto 2rem auto;
   font-size: 4rem;
   text-align: center;
   font-family: 'Erica One', cursive;
 }
-.game-board{
+
+.game-board {
   width: 350px;
   margin: 2rem auto auto auto;
   position: relative;
 }
 
-.game-btns{
+.game-btns {
   width: 265px;
   height: 265px;
   background-color: #fcfbf7;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 10px #aea5a2;
 }
-.display-wrapper{
-margin: 3rem auto 2rem auto;
+
+.display-wrapper {
+  margin: 3rem auto 2rem auto;
 }
-.display{
+
+.display {
   width: 265px;
   height: 50px;
   background-color: #dcf9de;
@@ -36,44 +39,49 @@ margin: 3rem auto 2rem auto;
   border: 3px inset #D3D3D3;
   align-items: center;
   display: flex;
-
 }
 
-.game-btn{
+.game-btn {
   width: 110px;
   height: 110px;
   border-radius: 5px;
   margin: 3px;
   border: none;
-  }
-.game-btn:active, .game-btn:focus, .strict-btn:focus{
+}
+
+.game-btn:active, .game-btn:focus, .strict-btn:focus {
   outline: none;
 }
 
-#btn1{
+#btn1 {
   background-color: #5D4C46;
   margin-top: 19px;
 }
-#btn2{
+
+#btn2 {
   background-color: #44B3C2;
   margin-top: 19px;
 }
-#btn3{
+
+#btn3 {
   background-color: #F1A94E;
 }
-#btn4{
+
+#btn4 {
   background-color: #E45641;
 }
-.strict-btn-on{
-  background-color: #F31431;
-  color: white;
+
+.strict-btn-on {
+  border: 2px solid #F31431;
+  color: #F31431 !important;
 }
-.ctrl-btns{
+
+.ctrl-btns {
   width: 250px;
   margin: 2rem auto 20rem auto;
 }
 
-.ctrl-btn{
+.ctrl-btn {
   border-radius: 5px;
   height: 45px;
   width: 70px;
